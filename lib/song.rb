@@ -37,7 +37,7 @@ class Song
         genres[genre] = 1
       end
     end
-    genres
+    genres_hash
   end
 
   def self.artist_count
@@ -49,6 +49,6 @@ class Song
         artists[artist] = 1
       end
     end
-    artists
+    artists_hash
   end
 end
