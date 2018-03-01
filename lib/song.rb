@@ -34,7 +34,7 @@ class Song
       if genres.include?(genre)
         genres[genre] += 1
       else
-        genres[genre] += 1
+        genres[genre] = 1
       end
     end
     genres
@@ -46,7 +46,7 @@ class Song
       if @@artists.include?(artist)
         artists[artist] += 1
       else
-        artists[artist] += 1
+        artists[artist] = 1
       end
     end
     artists
