@@ -5,4 +5,5 @@ class Song
   def initialize(song)
     @song = song
     @@count += 1
+  end
 end
