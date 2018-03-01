@@ -48,9 +48,7 @@ class Song
       else
         artists[artist] += 1
       end
+      artists
     end
-
   end
-
-end
 end
