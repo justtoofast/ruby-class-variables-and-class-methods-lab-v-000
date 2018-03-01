@@ -37,5 +37,6 @@ class Song
         genres[genre] += 1
       end
       genres
+    end
   end
 end
