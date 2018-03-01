@@ -39,7 +39,7 @@ class Song
         artists[artist] += 1
       end
     end
-    
+
   end
-    
+
 end
